@@ -323,9 +323,7 @@ class DemographicsPage(Frame):
 
         text = Label(self, text="Demographic Data to be collected here")
         # IDEA:
-        # Collect each item for demographic data
-        # Create an instance of Participant
-        # WITH USER INPUT HERE BEFORE SENDING TO DB
+        # Collect each item for demographic data into participant instance from interface
         participant = Participant()   # add form stuff before this step
 
         participant_id = SQLHandler.addUser(participant)
