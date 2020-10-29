@@ -43,8 +43,6 @@ class SQLHandler():
         return participant_id
 
 
-
-
     @staticmethod
     def insertTrialData(trial_data, participant_id):
         print(participant_id)
